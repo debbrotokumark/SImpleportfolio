@@ -11,7 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
-
+    <script
+      src="https://kit.fontawesome.com/e9b8fa224d.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -33,8 +36,12 @@
             Shot what able cold new see hold.Friendly as an betrayed formerly
             he. Morning because as to society behaved moments.
           </p>
-          <button class="btnPrimary">Download CV</button>
-          <button class="btnPrimary">Contact</button>
+          <button class="btnPrimary">
+            <i class="fa-solid fa-arrow-down"></i> Download CV
+          </button>
+          <button class="btn-Contact">
+            <i class="fa-solid fa-phone"></i> Contact
+          </button>
         </div>
 
         <img src="images/hardy.png" alt="" class="profile-img" />
@@ -197,6 +204,35 @@
         </button>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer-colume">
+        <h3>Lets Connect</h3>
+        <p>
+          Please fill out the form on this section to contact with me or call
+          between 9:00 A.M and 8.00 P.M ET, Monday through Friday.
+        </p>
+        <div class="social-media">
+          <a href=""><img src="images/icons/facebook.png" alt="" /></a
+          ><a href=""><img src="images/icons/insta.png" alt="" /></a
+          ><a href=""><img src="images/icons/twitter.png" alt="" /></a>
+        </div>
+      </div>
+      <div class="footer-colume">
+        <form action="" class="contacts">
+          <h3>Let’s Message me</h3>
+          <input type="text" name="" placeholder="Your Name" id="" />
+          <input type="email" name="" placeholder="Your Email" id="" />
+
+          <textarea
+            name=""
+            placeholder="Message"
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="button" class="btnPrimary" value="Submit" />
+        </form>
+      </div>
+    </footer>
   </body>
 </html>
