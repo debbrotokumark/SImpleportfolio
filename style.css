@@ -1,8 +1,12 @@
 body {
   font-family: "Open Sans", sans-serif;
+  margin: 0px;
 }
 #header {
   background-color: #fff8f3;
+  background-image: url(images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .navtitle {
   text-align: left;
@@ -46,11 +50,127 @@ nav a {
 }
 .banner {
   display: flex;
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
   align-items: center;
+  justify-content: space-between;
 }
 .banner .profile-img {
   width: 500px;
 }
 .banner .bannner-content {
+  max-width: 500px;
+}
+.banner-greeting {
+  margin-bottom: 0px;
+  font-size: 45px;
+}
+.bannner-title {
+  font-size: 85px;
+  margin-top: 5px;
+}
+.bannerdetails {
+  font-size: 18px;
+  margin: 30px 0px;
+}
+.about {
+  padding: 100px;
+  background-color: #fff8f3;
+  margin: 100px 0px;
+  align-items: center;
+  border-radius: 10px;
+}
+.section-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  color: #000000;
+}
+.section-details {
+  text-align: center;
+  color: #474747;
+  font-size: 18px;
+}
+main {
+  margin: 0px auto;
+
+  max-width: 1140px;
+}
+.about-info-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  align-items: center;
+  padding: 20px;
+}
+.info-title {
+  text-align: center;
+  margin: 0px;
+}
+.info-descrition {
+  text-align: center;
+  margin: 0px;
+}
+#what-i-do {
+  padding: 30px 0px;
+}
+.skill-container {
+  gap: 24px;
+  align-items: center;
+  display: flex;
+
+  justify-content: space-between;
+}
+main > section {
+  margin-top: 130px;
+}
+
+.skill {
+  padding: 24px;
+  background-color: #ffffff;
+  filter: drop-shadow(0px 6px 50px rgba(0, 0, 0, 0.05999999865889549));
+  border-radius: 5px;
+}
+.resume-container {
+  gap: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.rightresume {
+  gap: 50px;
+}
+.leftresume {
+  gap: 50px;
+}
+.resume-colume-title {
+  color: #474747;
+  font-size: 35px;
+}
+.resume-title {
+  color: #474747;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.resume-time {
+  color: #757575;
+  font-size: 20px;
+  margin-top: 0px;
+}
+.resume-details {
+  color: #757575;
+  font-size: 16px;
+}
+hr {
+  margin: 30px;
+}
+#resume-dowenload {
+  margin-top: 50px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer {
+  height: 100px;
 }
